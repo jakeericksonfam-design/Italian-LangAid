@@ -27,7 +27,7 @@ if not api_key:
 
 # Configure AI
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Initialize Chat History
 if "messages" not in st.session_state:
